@@ -1,0 +1,100 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'Sorts Mill Goudy', serif;*/
+}
+
+
+#head
+{
+    float:left;
+}
+#containAll{
+
+}
+#rightTop li{
+    float:left;
+    margin:20px;
+}
+#rightTop {
+    color: white;
+    float: right;
+    background-color: red;
+    margin-right: 30px;
+    margin-top:20px;
+    border-radius: 15px;
+}
+#rightTop a{
+    color:white;
+    text-decoration:none;
+}
+* {
+    box-sizing: border-box;   
+}
+#rightTop ul{
+    list-style-type:none;/*Para quitar los puntos*/
+}
+#top{
+    margin-top:10px;
+}
+.salto{
+    clear:both;
+    margin-top:50px;
+    margin-bottom:50px;
+        
+}
+#textPreImg {
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#img1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.midTop {
+    text-align: center;
+    background-color: red;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+    color:white;
+    margin-bottom:50px;
+}
+.mid2Img{
+    float:left;
+}
+.miniSeccion{
+    width:33%;
+    float:left;
+}
+.miniSeccion h1{
+    margin-top:0px;
+    margin-left:10%;/*TODO:preguntar si poniendo % aqui hace el tanto por ciento de su seccion(en este caso 33), o lo hace sobre la página entera*/
+}
+.miniSeccion p{
+    margin-bottom:70px;
+}
+.miniSeccion a{
+    display:block;
+}
+#mid3{
+   
+}
+.miniSeccion2{
+    float:left;
+    width:20%;
+    padding:8px;
+}
+    .miniSeccion2 a {
+        display: block;
+        margin-bottom: 50px;
+    }
+.mid3Img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
